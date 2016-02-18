@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Requirements page for Animate Css.
+ * Requirements page for Animate CSS.
  */
 
 /**
@@ -14,7 +14,7 @@ function animate_css_requirements($phase) {
   // Report the version of Animate.
   if ($phase == 'runtime') {
     // Make sure Libraries is loaded before loading Animate.
-    drupal_load('module', 'libraries');
+    backdrop_load('module', 'libraries');
     $animate = libraries_detect('animate');
     $requirements['animate'] = array(
       'title' => $animate['name'],

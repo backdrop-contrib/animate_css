@@ -1,8 +1,7 @@
 name = Animate CSS
 description = animate.css is a bunch of cool, fun, and cross-browser animations for you to use in your projects.
-core = 7.x
-
-dependencies[] = libraries (>=7.x-2.0)
-
-files[] = animate_css.install
-files[] = animate_css.module
+backdrop = 1.x
+version = 1.x-1.1
+type = module
+dependencies[] = libraries
+configure = admin/config/user-interface/animate_css
