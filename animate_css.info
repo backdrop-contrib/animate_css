@@ -3,5 +3,5 @@ description = animate.css is a bunch of cool, fun, and cross-browser animations 
 backdrop = 1.x
 version = 1.x-1.1
 type = module
-dependencies[] = libraries
+
 configure = admin/config/user-interface/animate_css
